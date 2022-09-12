@@ -1,0 +1,126 @@
+.tipo-conferencia{
+	background-image: url(../img/conferencia.png); 
+	background-repeat: no-repeat;
+    background-size: 45px 50px; 
+    padding-left: 30px !important;
+    width: 45px;
+    height:50px;
+}
+
+.tipo-conversatorio{
+	background-image: url(../img/conversatorio.png); 
+	background-repeat: no-repeat;
+    background-size: 45px 50px; 
+    padding-left: 30px !important;
+    width: 45px;
+    height:50px;
+}
+
+
+.tipo-seminario{
+	background-image: url(../img/seminario.png); 
+	background-repeat: no-repeat;
+    background-size: 45px 50px; 
+    padding-left: 30px !important;
+    width: 45px;
+    height:50px;
+}
+
+.tipo-academico{
+	background-image: url(../img/actoacad.png); 
+	background-repeat: no-repeat;
+    background-size: 45px 50px; 
+    padding-left: 30px !important;
+    width: 45px;
+    height:50px;
+}
+.tipo-protocolar{
+	background-image: url(../img/actoprot.png); 
+	background-repeat: no-repeat;
+    background-size: 45px 50px; 
+    padding-left: 30px !important;
+    width: 45px;
+    height:50px;
+}
+
+.tipo-coloquio{
+	background-image: url(../img/coloquio.png); 
+	background-repeat: no-repeat;
+    background-size: 45px 50px; 
+    padding-left: 30px !important; 
+    width: 45px;
+    height:50px;
+}
+
+
+.tipo-clase{
+	background-image: url(../img/clase.png); 
+	background-repeat: no-repeat;
+    background-size: 45px 50px; 
+    padding-left: 30px !important;
+    width: 45px;
+    height:50px;
+}
+
+.tipo-videoconf{
+	background-image: url(../img/videoconf.png); 
+	background-repeat: no-repeat;
+    background-size: 45px 50px; 
+    padding-left: 30px !important;
+    width: 45px;
+    height:50px;
+}
+
+/* iconos de detalles del evento */
+.ab-calendario
+{
+	background-image: url(../img/cgris.png); 
+	background-repeat: no-repeat;
+    background-size: 16px 16px; 
+    padding-left: 20px;
+    width: 25px;
+    height:25px;
+}
+
+.ab-reloj
+{
+	background-image: url(../img/hora.png); 
+	background-repeat: no-repeat;
+    background-size: 16px 16px; 
+    padding-left: 20px;
+    width: 25px;
+    height:25px;
+}
+
+.ab-lugar
+{
+	background-image: url(../img/lugar.png); 
+	background-repeat: no-repeat;
+    background-size: 16px 16px; 
+    padding-left: 20px;
+    width: 25px;
+    height:25px;
+}
+.ab-close-black
+{
+	background-image: url(../img/cerrarnegro.png); 
+	background-repeat: no-repeat;
+    background-size: 30px 30px; 
+    padding-left: 40px;
+    margin-top: 30px;
+    width: 25px;
+    height:25px;
+}
+
+.ab-close-blue
+{
+	background-image: url(../img/cerrarazul.png); 
+	background-repeat: no-repeat;
+    background-size: 30px 30px; 
+    padding-left: 40px;
+    margin-top: 30px;
+    width: 25px;
+    height:25px;
+}
+
+.html2canvas-container { width: 3000px !important; height: 3000px !important; }

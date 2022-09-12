@@ -1,0 +1,214 @@
+(function($, Drupal)
+{
+    
+
+  // I want some code to run on page load, so I use Drupal.behaviors
+  Drupal.behaviors.searchResults = {
+    attach:function()
+    {
+      // Any code here will be run on page load:
+     console.log('hola');
+var j=1;    
+ while (j < 20) {
+      for (var i = 0; i < 50; i++){
+  
+    $('#edit-field-participaciones-especiales-1-0-field-participaciones-especiales-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-participaciones-especiales-1-0-field-participaciones-especiales-und-'+i+'-target-id--'+j).attr('readonly', true);
+    $('#edit-field-participaciones-especiales-0-field-participaciones-especiales-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-participaciones-especiales-0-field-participaciones-especiales-und-'+i+'-target-id--'+j).attr('readonly', true);
+    
+//Reconocimientos y distinciones academicas
+
+    $('#edit-field-reconocimientos-y-distinci-1-0-field-reconocimientos-y-distinci-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-reconocimientos-y-distinci-1-0-field-reconocimientos-y-distinci-und-'+i+'-target-id--'+j).attr('readonly', true);
+    $('#edit-field-reconocimientos-y-distinci-0-field-reconocimientos-y-distinci-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-reconocimientos-y-distinci-0-field-reconocimientos-y-distinci-und-'+i+'-target-id--'+j).attr('readonly', true);
+    
+//Cursos Impartidos
+    $('#edit-field-cursos-1-0-field-cursos-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-cursos-1-0-field-cursos-und-'+i+'-target-id--'+j).attr('readonly', true);
+    $('#edit-field-cursos-0-field-cursos-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-cursos-0-field-cursos-und-'+i+'-target-id--'+j).attr('readonly', true);
+
+//Tutorias
+    $('#edit-field-tutor-1-0-field-tutor-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-tutor-1-0-field-tutor-und-'+i+'-target-id--'+j).attr('readonly', true);
+    $('#edit-field-tutor-0-field-tutor-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-tutor-0-field-tutor-und-'+i+'-target-id--'+j).attr('readonly', true);
+
+//Producciob Academica
+    $('#edit-field-producci-n-acad-mica-1-0-field-producci-n-acad-mica-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-producci-n-acad-mica-1-0-field-producci-n-acad-mica-und-'+i+'-target-id--'+j).attr('readonly', true);
+    $('#edit-field-producci-n-acad-mica-0-field-producci-n-acad-mica-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-producci-n-acad-mica-0-field-producci-n-acad-mica-und-'+i+'-target-id--'+j).attr('readonly', true);
+
+//Estancia Académica y/o Año Sabático 
+    $('#edit-field-estancia-acad-mica-1-0-field-estancia-acad-mica-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-estancia-acad-mica-1-0-field-estancia-acad-mica-und-'+i+'-target-id--'+j).attr('readonly', true);
+    $('#edit-field-estancia-acad-mica-0-field-estancia-acad-mica-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-estancia-acad-mica-0-field-estancia-acad-mica-und-'+i+'-target-id--'+j).attr('readonly', true);
+
+//Proyecto de Investigacion
+    $('#edit-field-proyecto-de-investigaci-n-1-0-field-proyecto-de-investigaci-n-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-proyecto-de-investigaci-n-1-0-field-proyecto-de-investigaci-n-und-'+i+'-target-id--'+j).attr('readonly', true);
+    $('#edit-field-proyecto-de-investigaci-n-0-field-proyecto-de-investigaci-n-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-proyecto-de-investigaci-n-0-field-proyecto-de-investigaci-n-und-'+i+'-target-id--'+j).attr('readonly', true);
+
+//Actividades Academicas
+    $('#edit-field-actividades-acad-micas-1-0-field-actividades-acad-micas-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-actividades-acad-micas-1-0-field-actividades-acad-micas-und-'+i+'-target-id--'+j).attr('readonly', true);
+    $('#edit-field-actividades-acad-micas-0-field-actividades-acad-micas-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-actividades-acad-micas-0-field-actividades-acad-micas-und-'+i+'-target-id--'+j).attr('readonly', true);
+
+
+
+//Actividades Extension
+    $('#edit-field-actividades-de-extensi-n-1-0-field-actividades-de-extensi-n-und-0-target-id').attr('readonly', true);
+    $('#edit-field-actividades-de-extensi-n-1-0-field-actividades-de-extensi-n-und-'+i+'-target-id--'+j).attr('readonly', true);
+    $('#edit-field-actividades-de-extensi-n-0-field-actividades-de-extensi-n-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-actividades-de-extensi-n-0-field-actividades-de-extensi-n-und-'+i+'-target-id--'+j).attr('readonly', true);
+
+
+//Membresia Redes
+    $('#edit-field-membres-a-a-redes-1-0-field-membres-a-a-redes-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-membres-a-a-redes-1-0-field-membres-a-a-redes-und-'+i+'-target-id--'+j).attr('readonly', true);
+    $('#edit-field-membres-a-a-redes-0-field-membres-a-a-redes-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-membres-a-a-redes-0-field-membres-a-a-redes-und-'+i+'-target-id--'+j).attr('readonly', true);
+
+//Actividades Vinculacion
+    $('#edit-field-actividades-de-vinculaci-n-1-0-field-actividades-de-vinculaci-n-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-actividades-de-vinculaci-n-1-0-field-actividades-de-vinculaci-n-und-'+i+'-target-id--'+j).attr('readonly', true);
+    $('#edit-field-actividades-de-vinculaci-n-0-field-actividades-de-vinculaci-n-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-actividades-de-vinculaci-n-0-field-actividades-de-vinculaci-n-und-'+i+'-target-id--'+j).attr('readonly', true);
+
+//Estudios realizados o en curso
+    $('#edit-field-estudios-1-0-field-estudios-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-estudios-1-0-field-estudios-und-'+i+'-target-id--'+j).attr('readonly', true);
+    $('#edit-field-estudios-0-field-estudios-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-estudios-0-field-estudios-und-'+i+'-target-id--'+j).attr('readonly', true);
+
+//Otras Becas
+    $('#edit-field-becas-1-0-field-becas-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-becas-1-0-field-becas-und-'+i+'-target-id--'+j).attr('readonly', true);
+    $('#edit-field-becas-0-field-becas-und-'+i+'-target-id').attr('readonly', true);
+    $('#edit-field-becas-0-field-becas-und-'+i+'-target-id--'+j).attr('readonly', true);
+
+          
+    }
+    console.log('adios');
+    
+    j++;
+  }
+
+  //Nombre UpperCase Regex Restriction
+  var regexname =/\w*[A-Z]\w*[A-Z]\w*/;
+  var texto = ' '+$('.views-field-field-nombre .text-full').val();
+  $('.views-field-field-nombre .text-full').on('keypress keydown keyup',function()
+  {
+             if (!$(this).val().match(regexname)) 
+
+             {
+              
+              texto = $('.views-field-field-nombre .text-full').val();
+                
+             }
+           else{
+                  
+                texto = texto.toLowerCase().replace(/(^.)|(\s[a-z])/g, function(letter)
+                 {
+                  return letter.toUpperCase();
+                 });
+                
+                $('.views-field-field-nombre .text-full').val(texto);
+    
+               }
+         });
+
+   $('.views-field-field-nombre .text-full').blur(function() {
+
+      texto = texto.toLowerCase().replace(/(^.)|(\s[a-z])/g, function(letter)
+                 {
+                  return letter.toUpperCase();
+                 });
+               
+      $('.views-field-field-nombre .text-full').val(texto);
+
+    });
+
+
+
+    //AP UpperCase Regex Restriction
+ 
+  var textoP = $('.views-field-field-apellido-paterno .text-full').val();
+  $('.views-field-field-apellido-paterno .text-full').on('keypress keydown keyup',function()
+  {
+             if (!$(this).val().match(regexname)) 
+
+             {
+              
+              textoP = $('.views-field-field-apellido-paterno .text-full').val();
+                
+             }
+           else{
+                  
+                textoP = textoP.toLowerCase().replace(/(^.)|(\s[a-z])/g, function(letter)
+                 {
+                  return letter.toUpperCase();
+                 });
+                
+                $('.views-field-field-apellido-paterno .text-full').val(textoP);
+    
+               }
+         });
+
+   $('.views-field-field-apellido-paterno .text-full').blur(function() {
+
+      textoP = textoP.toLowerCase().replace(/(^.)|(\s[a-z])/g, function(letter)
+                 {
+                  return letter.toUpperCase();
+                 });
+               
+      $('.views-field-field-apellido-paterno .text-full').val(textoP);
+
+    });
+
+
+    //AM UpperCase Regex Restriction
+ 
+  var textoM = $('.views-field-field-apellido-materno .text-full').val();
+  $('.views-field-field-apellido-materno .text-full').on('keypress keydown keyup',function()
+  {
+             if (!$(this).val().match(regexname)) 
+
+             {
+              
+              textoM = $('.views-field-field-apellido-materno .text-full').val();
+                
+             }
+           else{
+                  
+                textoM = textoM.toLowerCase().replace(/(^.)|(\s[a-z])/g, function(letter)
+                 {
+                  return letter.toUpperCase();
+                 });
+                
+                $('.views-field-field-apellido-materno .text-full').val(textoM);
+    
+               }
+         });
+
+   $('.views-field-field-apellido-materno .text-full').blur(function() {
+
+      textoM = textoM.toLowerCase().replace(/(^.)|(\s[a-z])/g, function(letter)
+                 {
+                  return letter.toUpperCase();
+                 });
+               
+      $('.views-field-field-apellido-materno .text-full').val(textoM);
+
+    });
+
+  
+    }
+  };
+}(jQuery, Drupal));

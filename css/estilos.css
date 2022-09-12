@@ -1,0 +1,52 @@
+
+
+.row-striped:nth-of-type(odd){
+  background-color: #efefef;
+  border-left: 4px #000000 solid;
+}
+
+.row-striped:nth-of-type(even){
+  background-color: #ffffff;
+  border-left: 4px #efefef solid;
+}
+.badge-secondary {
+    font-size: 60% !important;
+}
+.row-striped {
+    padding: 15px 0;
+}
+
+strong.ng-binding {
+    font-size: 70%;
+}
+
+#calendar {
+
+    max-width: 100% !important;
+    margin: 0 auto;
+    margin-top: 64px;;
+
+}
+
+div#calendar {
+    margin-top: 110px;
+}
+.fc-unthemed td.fc-today {
+    background: #fff;
+}
+
+.fc-today a.fc-day-number {
+    background-color: blue;
+    border-radius: 10px;
+    color: white !important;
+    font-weight: bold;
+}
+
+a.fc-more {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+}
+
+

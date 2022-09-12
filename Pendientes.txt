@@ -1,0 +1,12 @@
+
+Controlar la longitudes mínimas y máximas de los campos de los formularios.
+
+Bloquear los días anteriores a la fecha actual en los calendarios de los formularios.
+
+Evitar que se ejecute "Regresar" y "Refrescar" en el navegador después de insertar algún evento o sesión.
+
+Menú "Buscar".
+Menú "Modificar".
+Menú "Eliminar"*.
+
+*¿Se podrán eliminar eventos?

@@ -1,0 +1,76 @@
+ .cuadradoNaranja{
+    height: 40px;
+    width: 10px;
+    background-color: #e5a04c;
+    margin-left: 5px;
+  }
+   .cuadradoVerde{
+    height: 40px;
+    width: 10px;
+    background-color: #73a04d;
+    margin-left: 5px;
+  }
+  .cuadradoAzul{
+    height: 40px;
+    width: 10px;
+    background-color: #225999;
+    margin-left: 5px;
+  }
+  .cuadradoRojo{
+    height: 40px;
+    width: 10px;
+    background-color: red;
+    margin-left: 5px;
+  }
+   .cuadradoAzulMarino{
+    height: 40px;
+    width: 10px;
+    background-color: #2a3a42;
+    margin-left: 5px;
+  }
+   .cuadradoGrisOscuro{
+    height: 40px;
+    width: 10px;
+    background-color: #535c5c;
+    margin-left: 5px;
+  }
+   .cuadradoAmaPalido{
+    height: 40px;
+    width: 10px;
+    background-color:#c0c075;
+    margin-left: 5px;
+  }
+
+  .cuadradoAmaPalido{
+    height: 40px;
+    width: 10px;
+    background-color:#c0c075;
+    margin-left: 5px;
+  }
+
+  .cuadradoVerdeAgua{
+    height: 40px;
+    width: 10px;
+    background-color:#74b2a2;
+    margin-left: 5px;
+  }
+
+  .cuadradoGrisClaro{
+    height: 40px;
+    width: 10px;
+    background-color:#9bb2bc;
+    margin-left: 5px;
+  }
+  .cuadradoMorado{
+    height: 40px;
+    width: 10px;
+    background-color:#8159a4;
+    margin-left: 5px;
+  }
+
+  .cuadradoNallende{
+    height: 40px;
+    width: 10px;
+    background-color:#ef5624;
+    margin-left: 5px;
+  }

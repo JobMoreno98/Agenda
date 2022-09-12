@@ -1,0 +1,36 @@
+[
+  {
+    "ID": "47",
+    "title": "El Sapo De La Kahlo",
+    "tipo": "Conferencia",
+    "dependencia": "Dependencia de Prueba",
+    "organizador": "Guadalupe Kahlo",
+    "tel_organizador": "1111111111",
+    "responsable": "Raul",
+    "tel_responsable": "1111111111",
+    "notas_cta": "NOTA CTA",
+    "notas_sg": "NOTA SG",
+    "registrado_por": "Edgar Orozco",
+    "espacio": "C, Cubículos de tutorías",
+    "start": "2018-07-26",
+    "hora_inicial": "17:11:00",
+    "hora_final": "20:22:00"
+  },
+  {
+    "ID": "49",
+    "title": "La Educación Privada En México. La Iglesia Católica En El Siglo Xx",
+    "tipo": "Conferencia",
+    "dependencia": "Dependencia de Prueba",
+    "organizador": "Margarita Zavala",
+    "tel_organizador": "3352854785",
+    "responsable": "Raul",
+    "tel_responsable": "5236020000",
+    "notas_cta": "Nota cta",
+    "notas_sg": "Nota sg",
+    "registrado_por": "Edgar Orozco",
+    "espacio": "C, Cubículos de tutorías",
+    "start": "2018-07-12",
+    "hora_inicial": "17:11:00",
+    "hora_final": "20:22:00"
+  }
+]
